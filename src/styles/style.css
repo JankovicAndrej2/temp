@@ -1,3 +1,5 @@
+@import "../fonts/fonts.css";
+
 html{
     height: 100%;
     width: 100%;  
@@ -14,7 +16,7 @@ body{
 }
 
 .right-side>*, .left-side>*{
-    border: 1px solid black;
+    border: 1.5px solid black;
     border-radius: 10px;
 }
 .right-side{
@@ -37,6 +39,11 @@ body{
 .button{
     height: 50px;
     width: 160px;
+    font-family: "tomorrowbold_italic";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
 }
 .left-box,.right-box{
     width: 100%;
