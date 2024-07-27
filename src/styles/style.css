@@ -1,0 +1,31 @@
+html{
+    height: 100%;
+    width: 100%;  
+}
+body{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    gap: 130px;
+    
+}
+.left-side, .right-side{
+    height: 100% - 2px;
+    border: 1px solid black;
+}
+
+
+.right-side{
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+.left-side{
+    width: 30%;
+    border-right: 1px solid black;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
